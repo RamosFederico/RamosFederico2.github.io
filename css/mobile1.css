@@ -1,0 +1,115 @@
+.home {
+    background-image: url(../img/Inicio.png);
+    background-size: 400%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.boton {
+    font-weight: 400;   
+    font-size: 70%;
+    color:white;
+    padding-top:10px;
+    padding-bottom: 10px;
+}
+
+#producto {
+    background-image: url(../img/Productos-3.jpg) ;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#acercade {
+    background-image: url(../img/AcercaDeConPalabras.png); 
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 250%;
+  
+  }
+
+.datos :nth-child(1) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    margin-inline: 3%;
+    font-size: 0px;
+  }
+
+  
+.sectionAcercaDe {
+    
+    margin-right: 5%;
+    margin: 5%;
+    margin-top: 0%;
+    grid-gap: 0px;
+    padding: 0px 0px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 16%;
+    
+}
+
+.sectionAcercaDe h2 {
+    font-size: 80%;
+}
+
+section .articuloDos {
+    font-size: x-small;
+}
+
+.productosFooter {
+    margin-top: 6%;
+    width: 47%;
+}
+
+.cliente h2 {
+    margin-bottom: 2%;
+    font-size: 90%;
+  }
+
+.pie-pagina .grupo-1 .box .mini {
+    margin-left: 5%;
+  }
+
+.red-social {
+    text-decoration: none;
+    display: inline-block;
+    margin-left: 0%;
+    
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    text-decoration: none;
+    width: 100%;
+    line-height: 45px;
+    color: #fff;
+    margin-right: -3px;
+    background-color: #000032;
+    text-align: right;
+    transition: all 300 ms ease;
+
+}
+
+.pie-pagina .grupo-1 .box .btn {
+    color: #fff;
+    margin-bottom: 0px;
+    margin-left: -40%;
+    font-size: 10px;
+    display: flex;
+    list-style-type: none;
+
+    text-decoration: none
+}
+
+@media screen and (max-width:420px){
+    .pie-pagina .grupo-1 {
+        width: auto;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        padding: 25px 0px;
+        text-decoration: none;
+        margin-inline: 15%;
+    }
+} 

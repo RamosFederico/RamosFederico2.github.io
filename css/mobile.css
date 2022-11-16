@@ -1,0 +1,57 @@
+#preguntas {
+    height: 0%;
+    margin-top: 0;
+}
+
+#producto {
+    height: 60%;
+
+
+}
+
+.home {
+    height: 80%;
+    
+}
+
+.boton {
+    width: 40%;
+    padding: 2%;
+}
+
+body {
+    display: block;
+    line-height:0;
+}
+
+#acercade {
+    height: 120vh;
+    background-size:  contain;
+}
+
+section article div h4 {
+    font-size: 75%;
+}
+
+.datos {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    color: #fff;
+    margin-inline: 6%;
+  }
+
+.datos .dato .dato2 {
+    margin-right: 0%;
+    color: #fff;
+    margin-left: 80%;
+  }  
+
+.productosFooter {
+    bottom: 0; 
+    width: 50%; 
+    height: 40px;
+    position: absolute;
+    top: 66em;
+    left: 0em;
+    margin-top: -42%;
+}  
