@@ -144,10 +144,6 @@ section .articuloUno {
     margin-top: 5%;
 }
 
-section .articuloDos {
-    margin-inline:;
-}
-
 section .articuloTres {
     margin-top: 40%;
 }
@@ -308,6 +304,8 @@ section p {
 .pie-pagina {
     width: 100%;
     background-color: #000032;
+    margin: 0;
+    border: 0;
 }
 .pie-pagina .grupo-1 {
     width: 100%;
@@ -465,7 +463,6 @@ form div .operaDaio {
     width: 50%; 
     height: 40px;
     offset-path: path("M10 10 L25 10");
-    display: ;
     animation: red-ball 2s linear alternate infinite;
     position: absolute;
     margin-top: -65%;
@@ -843,5 +840,5 @@ h1 p {
 }
 
 .hidden {
-  overflow: hidden;
+  overflow-x: hidden;
 }
